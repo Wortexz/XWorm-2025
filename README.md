@@ -30,6 +30,11 @@ __Extracted:__
 
 __Note:__ If file extensions are hidden by Windows settings it looks like MP4 file ".com" is not visible.
 
+AND file is signed with VALID Code Signing Certificate    
+
+![Screenshot 2025-01-23 195812](https://github.com/user-attachments/assets/7ce07072-f318-41b0-9a75-27869552c0a2)    
+
+
 __Launching the file:__    
 
 It's specifically designed to show an error!
@@ -42,5 +47,8 @@ Silently these file are downloaded:
 
 ![Screenshot 2025-01-23 192050](https://github.com/user-attachments/assets/807146fb-7773-4e54-9b60-e3cbc081ced7)
 
+__By simply opening a file, all your saved passwords in Google Chrome, Microsoft Edge, and Firefox can be stolen and probably your PC is remotely controlled__    
+
+# Deeper analysis    
 
 
