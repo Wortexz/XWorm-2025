@@ -47,7 +47,10 @@ Silently these file are downloaded:
 
 ![Screenshot 2025-01-23 192050](https://github.com/user-attachments/assets/807146fb-7773-4e54-9b60-e3cbc081ced7)
 
-__By simply opening a file, all your saved passwords in Google Chrome, Microsoft Edge, and Firefox can be stolen and probably your PC is remotely controlled__    
+__By simply opening a file, all your saved passwords in Google Chrome, Microsoft Edge, and Firefox can be stolen and probably your PC is remotely controlled__   
+
+![image](https://github.com/user-attachments/assets/7798bcc1-f02d-4d67-a735-726aba432b56)
+
 
 # Deeper analysis    
 
@@ -57,7 +60,36 @@ Obviously these files are obfuscated:
 
 Malware contacts Github repository too and the code is also obfuscated:    
 
-![Screenshot 2025-01-23 192608](https://github.com/user-attachments/assets/ffb24a20-d733-4a6b-9a89-0e50203a5e32)
+![Screenshot 2025-01-23 192608](https://github.com/user-attachments/assets/ffb24a20-d733-4a6b-9a89-0e50203a5e32)    
+
+EDR/XDR detections:    
+
+![Screenshot 2025-01-23 193441](https://github.com/user-attachments/assets/9501b340-6498-4339-bf18-400b852cac1c)    
+
+__Malware integrated Legit Remote tools inside:__    
+
+![Screenshot 2025-01-23 204915](https://github.com/user-attachments/assets/4a7a04e1-648c-4c22-83dc-41c1e575e23a)    
+
+# Xworm Payload
+
+- Xworm is a remote access trojan written in C#.    
+- Uses browser remote debugging - Can be used control the browser and steal sensitive information such as credentials and session cookies. (credential_access)      
+- Adds Run key to start application (persistence)    
+- Command and Scripting Interpreter: PowerShell, then uses Python. (execution)    
+- Legitimate hosting services abused for malware hosting/C2 - Github    
+- Looks up external IP address via web service    
+- Uses a legitimate IP lookup service to find the infected system's external IP    
+- Checks computer location settings    
+- Looks up country code configured in the registry, likely geofence.    
+- Packer: BobSoft Mini Delphi -> BoB / BobSoft (obfuscation)
+
+## Indicators of compromise (IoC)    
+__ESET Detections:__    
+
+![Screenshot 2025-01-23 193614](https://github.com/user-attachments/assets/910aac08-2c18-4a19-b240-a15654d556cb)      
+
+__SHA-256:__ ea0a842c974aad3955357e3f821950af5105357b6615c1985a276f5a4b8cb453    
+__Signer name:__ 44.211.848 NICOLAS SAMUEL DE ALMEIDA    
 
 
 
