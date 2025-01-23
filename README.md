@@ -17,7 +17,7 @@ __Submitted on VirusTotal on:__
   
 ![Screenshot 2025-01-23 194638](https://github.com/user-attachments/assets/f46a70ab-42eb-4a68-9dde-c0ae8d3aeb57)    
 
-For exactly two days only 3 detections:    
+__For exactly two days only 3 detections:__        
 
 ![Screenshot 2025-01-23 185656](https://github.com/user-attachments/assets/2b6c3b98-8bf8-43bd-b0bc-f9f5c964e804)
 
