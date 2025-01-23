@@ -9,8 +9,9 @@ Additionally, XWorm is highly versatile, enabling it to conduct DDoS attacks, ex
 It can drop multiple malicious payloads at different system locations, modify or create registry entries, and execute commands.      
 
 # Quick malware analysis    
-So, we spotted in Lithuania very unique Xworm malware sample which is only detected by 3/69 AV engines.    
-Submitted on VirusTotal on:
+So, we spotted in Lithuania very unique Xworm malware sample which is __only detected by 3/69 AV engines.__    
+
+__Submitted on VirusTotal on:__    
 - First Submission: 2025-01-22 15:23:22 UTC.    
 - Low community score is also there, because I have shared this sample with one researcher and he downvoted that sample.
   
