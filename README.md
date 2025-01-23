@@ -2,9 +2,11 @@
 
 Let's begin...
 
-XWorm is a commodity malware that is advertised for sale on underground forums and comes with a wide range of features that allows it to siphon sensitive information from infected hosts.    
-In addition, XWorm is versatile as it can carry out DDoS (distributed denial of service) attacks, ransomware operations, clipper functions, spread via USB, and deploy additional malware.    
-XWorm is capable of dropping several malicious payloads at various points on the system, adding or changing registry entries, and executing commands.    
+XWorm is a commodity malware sold on underground forums, offering a wide array of features for stealing sensitive information from infected systems.    
+
+Additionally, XWorm is highly versatile, enabling it to conduct DDoS attacks, execute ransomware operations, perform clipper functions, propagate through USB devices, and deliver additional malware.    
+
+It can drop multiple malicious payloads at different system locations, modify or create registry entries, and execute commands.      
 
 # Quick malware analysis    
 So, we spotted in Lithuania very unique Xworm malware sample which is only detected by 3/69 AV engines.    
@@ -71,8 +73,7 @@ __Malware integrated Legit Remote tools inside:__
 ![Screenshot 2025-01-23 204915](https://github.com/user-attachments/assets/4a7a04e1-648c-4c22-83dc-41c1e575e23a)    
 
 # Xworm Payload
-
-- Xworm is a remote access trojan written in C#.    
+ 
 - Uses browser remote debugging - Can be used control the browser and steal sensitive information such as credentials and session cookies. (credential_access)      
 - Adds Run key to start application (persistence)    
 - Command and Scripting Interpreter: PowerShell, then uses Python. (execution)    
