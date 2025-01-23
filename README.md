@@ -51,4 +51,13 @@ __By simply opening a file, all your saved passwords in Google Chrome, Microsoft
 
 # Deeper analysis    
 
+Obviously these files are obfuscated:    
+
+![Screenshot 2025-01-23 192131](https://github.com/user-attachments/assets/0f0cfa5c-0ffb-4801-8033-ada5782f7fd5)    
+
+Malware contacts Github repository too and the code is also obfuscated:    
+
+![Screenshot 2025-01-23 192608](https://github.com/user-attachments/assets/ffb24a20-d733-4a6b-9a89-0e50203a5e32)
+
+
 
