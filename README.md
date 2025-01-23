@@ -22,5 +22,25 @@ For exactly two days only 3 detections:
 
 From first sight it looks simple:    
 
-![Screenshot 2025-01-23 190213](https://github.com/user-attachments/assets/2b28ad1c-250a-40b2-92aa-ee4f5d62ea1a)
+![Screenshot 2025-01-23 190213](https://github.com/user-attachments/assets/2b28ad1c-250a-40b2-92aa-ee4f5d62ea1a)    
+
+__Extracted:__     
+
+![Screenshot 2025-01-23 190326](https://github.com/user-attachments/assets/7faca27a-5771-478e-8e6c-a3e8be790dd6)    
+
+__Note:__ If file extensions are hidden by Windows settings it looks like MP4 file ".com" is not visible.
+
+__Launching the file:__    
+
+It's specifically designed to show an error!
+
+![Screenshot 2025-01-23 190412](https://github.com/user-attachments/assets/1d2c0631-1a88-4beb-80ea-3f1513d5ae0c)    
+
+__Whats happening behind the scenes__    
+
+Silently these file are downloaded:    
+
+![Screenshot 2025-01-23 192050](https://github.com/user-attachments/assets/807146fb-7773-4e54-9b60-e3cbc081ced7)
+
+
 
